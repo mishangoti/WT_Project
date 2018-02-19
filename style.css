@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+#maincontainer{
+	background: lightyellow;
+	width: 100%;
+    height: 700px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 0;
+	font-family : arial, verdana, sans-serif;
+}	/*header*/
+	#header1{
+			background: #17A589;
+			width: 1280px;
+			height: 60px;
+			padding: 20px 10px;
+			color: white;
+		}
+		#name{
+			float: left;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			color: white;
+		}
+		#header2 a{
+			float: right;
+			margin-top: 20px;
+			margin-right: 20px;
+			color: white;
+		}
+		/*this is main navigation bar */
+		#nav{
+			position: absolute;
+			top: 100px;
+			transition: 0.3s;
+			text-decoration: none;
+			font-size: 20px;
+			color: white;
+			border-radius: 0 5px 5px 0;
+		}
+			#nav a:hover{
+				
+			}
+		/*this is sub navigation ba side navigation*/		
+			#mySidenav a {
+				position: absolute;
+				left: -100px;
+				transition: 0.3s;
+				padding: 15px;
+				width: 200px;
+				text-decoration: none;
+				font-size: 20px;
+				color: white;
+				border-radius: 0 5px 5px 0;
+			}
+			#mySidenav a:hover {
+				left: 0;
+			}
+
+			#about {
+				top: 175px;
+				background-color: #4CAF50;
+			}
+
+			#blog {
+				top: 255px;
+				background-color: #2196F3;
+			}
+
+			#projects {
+				top: 335px;
+				background-color: #f44336;
+			}
+
+			#contact {
+				top: 415px;
+				background-color: #555
+			}
+			#content{
+				float: left;
+				width: 800px;	
+				background: lightpink;
+			}
+			#rightnav{
+				float: right;
+				width: 260px;	
+				background: lightpink;
+			}
+			.user {
+			display: inline-block;
+			width: 90px;
+			height: 90px;
+			border-radius: 50%;
+			position: absolute;
+			left: 1100px;
+			top: 16px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			
+			}
+			.one {
+			  background-image: url('p1.jpg');
+			}
+			
+			
